@@ -34,6 +34,10 @@ body {
     height: auto;
 }
 
+h2 {
+    margin-top: 10px;
+}
+
 /* Header Title */
 .main-header h1 {
     font-size: 3rem;
@@ -452,19 +456,51 @@ input:focus, select:focus, textarea:focus {
     font-size: 1rem;
 }
 
-/* Footer Styling */
-.main-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    font-size: 1rem;
-}
-
 .main-footer p {
     margin: 0;
+}
+
+/* Adjustments for Header Overlap */
+@media (max-width: 1024px) {
+    body {
+        padding-top: 120px; 
+    }
+
+    .main-header {
+        padding: 10px; 
+    }
+
+    .main-header h1 {
+        font-size: 2.5rem; 
+    }
+
+    .nav-list {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 130px; 
+    }
+
+    .main-header h1 {
+        font-size: 2rem; 
+    }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+    body {
+        padding-top: 70px; 
+    }
+
+    .main-header {
+        padding: 10px; 
+    }
+
+    .main-header h1 {
+        font-size: 1.5rem; 
+    }
 }
 
