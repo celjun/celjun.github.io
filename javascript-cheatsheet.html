@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Cheat Sheet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="180x180" href="favicon_io/java-script.png">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <img src="favicon_io/light-bulb.png" alt="Cheat Sheets Logo" />
+        </div>
+        <h1>JavaScript Cheat Sheet</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html-cheatsheet.html">HTML Cheats</a></li>
+                <li><a href="css-cheatsheet.html">CSS Cheats</a></li>
+                <li><a href="javascript-cheatsheet.html">JavaScript Cheats</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <h2>Basic JavaScript Syntax</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Syntax</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Variables</td>
+                    <td>Declare a variable</td>
+                    <td><code>let x = 10;</code></td>
+                </tr>
+                <tr>
+                    <td>Functions</td>
+                    <td>Define a function</td>
+                    <td><code>function greet() { alert('Hello!'); }</code></td>
+                </tr>
+                <tr>
+                    <td>Loops</td>
+                    <td>Loop through items</td>
+                    <td><code>for (let i = 0; i < 5; i++) { console.log(i); }</code></td>
+                </tr>
+                <tr>
+                    <td>Conditionals</td>
+                    <td>Test conditions</td>
+                    <td><code>if (x > 5) { console.log('Greater!'); }</code></td>
+                </tr>
+                <tr>
+                    <td>Arrays</td>
+                    <td>Define an array</td>
+                    <td><code>let arr = [1, 2, 3];</code></td>
+                </tr>
+                <tr>
+                    <td>Objects</td>
+                    <td>Define an object</td>
+                    <td><code>let person = { name: 'John', age: 30 };</code></td>
+                </tr>
+                <tr>
+                    <td>Events</td>
+                    <td>Handle user interaction</td>
+                    <td><code>document.querySelector('button').addEventListener('click', function() { alert('Clicked!'); });</code></td>
+                </tr>
+                <tr>
+                    <td>Arrays Methods</td>
+                    <td>Common array methods</td>
+                    <td><code>arr.push(4); arr.pop();</code></td>
+                </tr>
+                <tr>
+                    <td>String Methods</td>
+                    <td>Common string methods</td>
+                    <td><code>let str = 'Hello'.toLowerCase();</code></td>
+                </tr>
+                <tr>
+                    <td>Objects Methods</td>
+                    <td>Common object methods</td>
+                    <td><code>person.hasOwnProperty('name');</code></td>
+                </tr>
+                <tr>
+                    <td>Arrow Functions</td>
+                    <td>Concise function syntax</td>
+                    <td><code>const add = (a, b) => a + b;</code></td>
+                </tr>
+                <tr>
+                    <td>Template Literals</td>
+                    <td>String interpolation</td>
+                    <td><code>let msg = `Hello, ${person.name}!`;</code></td>
+                </tr>
+                <tr>
+                    <td>Promises</td>
+                    <td>Asynchronous operations</td>
+                    <td><code>fetch(url).then(response => response.json());</code></td>
+                </tr>
+                <tr>
+                    <td>ES6 Classes</td>
+                    <td>Class declaration</td>
+                    <td><code>class Person { constructor(name) { this.name = name; } }</code></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Useful JavaScript Methods</h2>
+        <ul>
+            <li><strong>document.querySelector():</strong> Selects the first matching element.</li>
+            <li><strong>console.log():</strong> Logs output to the console.</li>
+            <li><strong>JSON.parse():</strong> Converts a JSON string into an object.</li>
+            <li><strong>Array.map():</strong> Transforms elements of an array.</li>
+            <li><strong>Math.random():</strong> Generates a random number between 0 and 1.</li>
+        </ul>
+    </main>
+
+    <footer class="main-footer">
+        <p>© 2024 Cheat Sheets. All rights reserved.</p>
+    </footer>
+</body>
+</html>
